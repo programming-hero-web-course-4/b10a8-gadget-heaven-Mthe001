@@ -12,7 +12,7 @@ export default function CategoryList({ onSelectCategory, selectedCategory }) {
     ];
 
     return (
-        <div className='border border-red-500 relative top-[50px] w-8/12 mx-auto'>
+        <div className=' bg-gray-200 rounded-lg relative top-[50px] w-8/12 mx-auto'>
             <nav className="flex flex-col gap-2 w-full max-w-xs p-4">
                 <h2 className='text-gray-600 font-bold py-1 px-1'>Category</h2>
                 {categories.map((item) => (
