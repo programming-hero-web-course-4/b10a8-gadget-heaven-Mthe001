@@ -11,7 +11,7 @@ const Banner = () => {
     }
     return (
         <div className='w-[90%] mx-auto '>
-            <div className='bg-violet-600 w-[90%] mx-auto rounded-xl mt-3 lg:h-[550px] h-[500px]  md:h-[600px]'>
+            <div className='bg-violet-600 w-[100%] mx-auto rounded-xl mt-3 lg:h-[550px] h-[500px]  md:h-[600px]'>
 
                 <div className='text-slate-50 text-start  md:text-center lg:text-center'>
                     <p className='lg:text-5xl md:text-4xl text-2xl font-semibold p-9'>Upgrade Your Tech Accessorize with Gadget Heaven Accessories</p>

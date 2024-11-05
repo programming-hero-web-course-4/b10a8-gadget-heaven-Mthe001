@@ -1,13 +1,14 @@
 
-
 import React, { useState } from 'react';
 import Cards from '../Cards/Cards';
 import CategoryList from '../Categorylist/CategoryList';
 import Banner from '../Banner/Banner';
 
 function Home() {
-    const [selectedCategory, setSelectedCategory] = useState("All Products");
 
+    document.title = "Gadget Heaven";
+
+    const [selectedCategory, setSelectedCategory] = useState("All Products");
     const handleSelectCategory = (category) => {
         setSelectedCategory(category);
     };

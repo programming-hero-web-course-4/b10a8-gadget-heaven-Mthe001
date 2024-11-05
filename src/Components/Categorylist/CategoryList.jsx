@@ -21,7 +21,7 @@ export default function CategoryList({ onSelectCategory, selectedCategory }) {
                     <button
                         key={item}
                         className={`btn btn-ghost w-full justify-start ${selectedCategory === item ? 'bg-purple-600 text-white' : 'bg-gray-100 text-gray-600'} hover:bg-gray-200`}
-                        onClick={() => onSelectCategory(item)} // Call the handler
+                        onClick={() => onSelectCategory(item)}
                     >
                         {item}
                     </button>

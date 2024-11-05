@@ -29,12 +29,12 @@ const Navbar = ({ currentPath }) => {
 
     return (
         <nav className={`${navbarBackgroundColor} shadow-md py-4 px-6 w-full flex justify-between items-center relative`}>
-            {/* Brand Name */}
+
             <div className="navbar-start">
                 <NavLink className="text-2xl font-bold text-primary" to="/">Gadget</NavLink>
             </div>
 
-            {/* Desktop Menu Links */}
+
             <div className="hidden lg:flex navbar-center">
                 <ul className="flex gap-4">
                     <li><NavLink to="/" className="hover:text-primary">Home</NavLink></li>
@@ -44,9 +44,9 @@ const Navbar = ({ currentPath }) => {
                 </ul>
             </div>
 
-            {/* Right Icons */}
+
             <div className="flex items-center gap-4 navbar-end">
-                {/* Cart Icon with Badge */}
+
                 <NavLink to="/checkout" className="relative">
                     <IoCartOutline className="text-xl" />
                     {cartCount > 0 && (
@@ -54,7 +54,7 @@ const Navbar = ({ currentPath }) => {
                     )}
                 </NavLink>
 
-                {/* Wishlist Icon with Badge */}
+
                 <div className="relative">
                     <button onClick={handleWishlistToggle} className="flex items-center">
                         <CiHeart className={`text-xl ${wishlistItems.some(item => item.id === sampleProduct.id) ? "text-red-500" : "text-gray-400"}`} />
@@ -64,12 +64,12 @@ const Navbar = ({ currentPath }) => {
                     </button>
                 </div>
 
-                {/* Login Icon */}
+
                 <NavLink to="/login">
                     <GrLogin className="text-xl" />
                 </NavLink>
 
-                {/* Mobile Menu Toggle */}
+
                 <button
                     onClick={() => setMenuOpen(!menuOpen)}
                     className="lg:hidden btn btn-ghost text-xl"
@@ -80,7 +80,7 @@ const Navbar = ({ currentPath }) => {
                 </button>
             </div>
 
-            {/* Mobile Menu - Visible on Small Screens */}
+
             <div
                 className={`absolute top-full left-0 w-full ${navbarBackgroundColor} z-20 shadow-lg p-4 lg:hidden transform transition-all duration-300 ease-in-out ${menuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'}`}
             >

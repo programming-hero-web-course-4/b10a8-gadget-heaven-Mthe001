@@ -5,6 +5,9 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Toolti
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const Statistics = () => {
+
+    document.title = " Gadget || Statistics";
+
     const productData = [
 
         {

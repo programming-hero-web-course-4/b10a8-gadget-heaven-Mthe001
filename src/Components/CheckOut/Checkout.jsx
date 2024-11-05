@@ -4,6 +4,9 @@ import { toast, ToastContainer } from 'react-toastify';
 import Modal from '../Modal/Modal';
 
 const Checkout = () => {
+
+    document.title = "Gadget || Checkout"
+
     const [purchasedItems, setPurchasedItems] = useState([]);
     const [totalCost, setTotalCost] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
