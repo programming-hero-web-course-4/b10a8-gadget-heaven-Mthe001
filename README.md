@@ -46,6 +46,13 @@ Welcome to **Gadget Haven**, your one-stop destination for all electronic gadget
   - JSON Server (for local data simulation)
   - Local Storage (for state management)
 
+## Contact Information
+- **React Noob Developer**
+  - Love to Listen Himself 'MTHE001'
+  - From Mymensingh, Dhaka, Bangladesh
+  - Email me - "mtheredwanulhaque@gmail.com"
+  
+
 ## Installation
 
 To get started with **Gadget Haven**, follow these steps:
