@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import { AiFillHeart } from 'react-icons/ai';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useCart } from '../CartContext/CartContext'; // Importing context
+import { useCart } from '../CartContext/CartContext';
 
 const ProductDetail = () => {
     const { id } = useParams();
@@ -14,7 +14,7 @@ const ProductDetail = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Fetch product data
+
         fetch('/product.json')
             .then(res => {
                 if (!res.ok) throw new Error('Network response was not ok');
@@ -23,17 +23,17 @@ const ProductDetail = () => {
             .then(data => {
                 const foundProduct = data.find(item => item.id === parseInt(id));
                 setProduct(foundProduct);
-                setLoading(false); // Set loading to false when data is fetched
+                setLoading(false);
             })
             .catch(err => {
                 console.error('Error fetching product details:', err);
-                setLoading(false); // Ensure loading is false even on error
+                setLoading(false);
             });
     }, [id]);
 
     const handleAddToCart = () => {
         if (!cartItems.some(item => item.id === product.id)) {
-            addToCart(product); // Use context function
+            addToCart(product);
             toast.success(`${product.title} has been added to your cart!`);
         } else {
             toast.info(`${product.title} is already in your cart.`);
@@ -42,7 +42,7 @@ const ProductDetail = () => {
 
     const handleAddToWishlist = () => {
         if (!wishlistItems.some(item => item.id === product.id)) {
-            addToWishlist(product); // Use context function
+            addToWishlist(product);
             toast.success(`${product.title} has been added to your wishlist!`);
         } else {
             toast.info(`${product.title} is already in your wishlist.`);
@@ -67,7 +67,7 @@ const ProductDetail = () => {
         return stars;
     };
 
-    if (loading) return <div>Loading...</div>; // Loading state
+    if (loading) return <div>Loading...</div>;
 
     return (
         <div>

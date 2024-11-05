@@ -1,19 +1,18 @@
 
-// Cards.js
 import React, { useEffect, useState } from 'react';
-import Card from '../Card/Card'; // Adjust the path based on your folder structure
+import Card from '../Card/Card';
 
 const Cards = ({ category }) => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('./product.json') // Ensure this path is correct
+        fetch('./product.json')
             .then(res => res.json())
             .then(data => setProducts(data))
             .catch(err => console.error('Error fetching data:', err));
     }, []);
 
-    // Filter products based on the selected category
+
     const filteredProducts = category === "All Products"
         ? products
         : products.filter(product => product.category === category);

@@ -2,9 +2,8 @@ nav a.active{
     text-decoration: underline;
 }
 
-/* You can include this in your CSS file */
 .chart-container {
     width: 100%;
-    height: 400px; /* Set height as needed */
+    height: 400px; 
     margin: 0 auto;
 }

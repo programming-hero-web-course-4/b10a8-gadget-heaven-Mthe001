@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import Cards from '../Cards/Cards'; // Adjust path as needed
-import Navbar from '../Navbar/Navbar'; // Adjust path as needed
-import { useCart } from '../CartContext/CartContext'; // Adjust path as needed
+import Cards from '../Cards/Cards';
+import Navbar from '../Navbar/Navbar';
+import { useCart } from '../CartContext/CartContext';
 
 const ProductPage = () => {
     const { addToCart } = useCart();
@@ -11,7 +11,7 @@ const ProductPage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch('/path/to/your/products.json'); // Adjust the path
+                const response = await fetch('/path/to/your/products.json');
                 const data = await response.json();
                 setProducts(data);
             } catch (error) {
@@ -23,7 +23,7 @@ const ProductPage = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        addToCart(product); // Call the addToCart function from context
+        addToCart(product);
     };
 
     return (
