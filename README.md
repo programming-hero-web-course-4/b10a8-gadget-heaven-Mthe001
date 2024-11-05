@@ -11,9 +11,6 @@ Welcome to **Gadget Haven**, your one-stop destination for all electronic gadget
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact Information](#contact-information)
 
 ## Project Overview
@@ -51,7 +48,7 @@ Welcome to **Gadget Haven**, your one-stop destination for all electronic gadget
   - Love to Listen Himself 'MTHE001'
   - From Mymensingh, Dhaka, Bangladesh
   - Email me - "mtheredwanulhaque@gmail.com"
-  
+
 
 ## Installation
 
