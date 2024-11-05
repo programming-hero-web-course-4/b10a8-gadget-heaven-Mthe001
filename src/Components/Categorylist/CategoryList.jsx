@@ -8,11 +8,15 @@ export default function CategoryList({ onSelectCategory, selectedCategory }) {
         "Electronics",
         "Furniture",
         "Outdoor",
-        // Add more categories as needed
+        "Clothing",
+        "Toys",
+        "Sports Equipment",
+        "Books",
+        "Beauty Products"
     ];
 
     return (
-        <div className=' bg-gray-200 rounded-lg relative top-[50px] w-8/12 mx-auto'>
+        <div className='bg-gray-200 rounded-lg relative top-[50px] w-8/12 mx-auto'>
             <nav className="flex flex-col gap-2 w-full max-w-xs p-4">
                 <h2 className='text-gray-600 font-bold py-1 px-1'>Category</h2>
                 {categories.map((item) => (
@@ -28,4 +32,3 @@ export default function CategoryList({ onSelectCategory, selectedCategory }) {
         </div>
     );
 }
-

@@ -7,7 +7,7 @@ const Card = ({ product }) => {
     const { id, title, image, price } = product;
 
     return (
-        <div className="card max-w-sm bg-base-100 shadow-lg rounded-lg overflow-hidden">
+        <div className="card w-[80%] mx-auto bg-base-100 shadow-lg rounded-lg overflow-hidden">
             {/* Image Section */}
             <figure>
                 <img src={image} alt={title} className="w-full h-48 rounded-xl object-cover p-5" />
