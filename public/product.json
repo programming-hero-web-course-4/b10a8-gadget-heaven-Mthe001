@@ -43,7 +43,7 @@
         "description": "Portable speaker with powerful sound and long-lasting battery, perfect for outdoor use.",
         "Specification": ["Bluetooth 5.1", "12-hour battery life", "Water-resistant", "Compact and portable"],
         "availability": true,
-        "rating": 5
+        "rating": 4
     },
     {
         "id": 5,
@@ -54,7 +54,7 @@
         "description": "Stylish stand with fast wireless charging, suitable for most smartphones.",
         "Specification": ["10W wireless charging", "Adjustable angle", "Non-slip base", "USB-C powered"],
         "availability": true,
-        "rating": 4.2
+        "rating":3
     },
     {
         "id": 6,
@@ -65,7 +65,7 @@
         "description": "Lightweight fitness tracker with heart rate monitoring and step counting features.",
         "Specification": ["Heart rate monitor", "Sleep tracking", "Water-resistant", "7-day battery life"],
         "availability": false,
-        "rating": 3
+        "rating": 2
     },
     {
         "id": 7,
@@ -76,7 +76,7 @@
         "description": "Stylish coffee table made from high-quality wood, perfect for any living room decor.",
         "Specification": ["Solid wood", "Natural finish", "Easy to assemble", "Dimensions: 40x20x18 inches"],
         "availability": true,
-        "rating": 4
+        "rating": 1
     },
     {
         "id": 8,
@@ -87,14 +87,14 @@
         "description": "Comfortable ergonomic chair with lumbar support, adjustable height, and breathable mesh back.",
         "Specification": ["Adjustable height", "Mesh back", "Lumbar support", "360-degree swivel"],
         "availability": true,
-        "rating": 2
+        "rating": 4
     },
     {
         "id": 9,
         "title": "Portable Camping Stove",
         "image": "https://images.pexels.com/photos/4909104/pexels-photo-4909104.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Outdoor",
-        "price": 85,
+        "price": 95,
         "description": "Compact and lightweight camping stove for outdoor cooking, with high heat efficiency.",
         "Specification": ["Stainless steel", "Easy to set up", "Fuel-efficient", "Lightweight design"],
         "availability": true,
@@ -105,18 +105,18 @@
         "title": "Blender with Glass Jar",
         "image": "https://images.pexels.com/photos/4183539/pexels-photo-4183539.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Home Appliances",
-        "price": 49,
+        "price": 156,
         "description": "High-performance blender with a glass jar and multiple speed settings for smooth blending.",
         "Specification": ["1000W motor", "4-speed settings", "Dishwasher-safe jar", "Compact design"],
         "availability": true,
-        "rating": 4.5
+        "rating": 3
     },
     {
         "id": 11,
         "title": "Electric Kettle",
         "image": "https://images.pexels.com/photos/4108671/pexels-photo-4108671.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Home Appliances",
-        "price": 29,
+        "price": 79,
         "description": "Fast boiling electric kettle with a stainless steel design and auto shut-off feature.",
         "Specification": ["1.7L capacity", "BPA-free", "Boil-dry protection", "Cordless design"],
         "availability": true,
@@ -138,29 +138,29 @@
         "title": "Mountain Hiking Backpack",
         "image": "https://images.pexels.com/photos/532803/pexels-photo-532803.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Outdoor",
-        "price": 89,
+        "price": 126,
         "description": "Durable hiking backpack with multiple compartments and water-resistant material.",
         "Specification": ["Waterproof", "Adjustable straps", "Breathable back", "Capacity: 50L"],
         "availability": true,
-        "rating": 4.5
+        "rating": 5
     },
     {
         "id": 14,
         "title": "Outdoor Folding Chair",
         "image": "https://images.pexels.com/photos/2996279/pexels-photo-2996279.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Outdoor",
-        "price": 35,
+        "price": 197,
         "description": "Lightweight and portable folding chair perfect for camping and outdoor events.",
         "Specification": ["Lightweight aluminum frame", "Durable fabric", "Cup holder included", "Weight capacity: 250lbs"],
         "availability": true,
-        "rating": 3.5
+        "rating": 5
     },
     {
         "id": 15,
         "title": "Camping Lantern",
         "image": "https://images.pexels.com/photos/6271727/pexels-photo-6271727.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Outdoor",
-        "price": 22,
+        "price": 69,
         "description": "Bright and compact camping lantern with multiple lighting modes and rechargeable battery.",
         "Specification": ["Rechargeable battery", "Water-resistant", "Portable design", "Adjustable brightness"],
         "availability": true,
@@ -171,7 +171,7 @@
         "title": "Men's Casual T-Shirt",
         "image": "https://images.pexels.com/photos/26447865/pexels-photo-26447865/free-photo-of-man-standing-in-t-shirt-and-cap.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Clothing",
-        "price": 19,
+        "price": 246,
         "description": "Comfortable and stylish casual t-shirt made of breathable cotton.",
         "Specification": ["100% cotton", "Available in multiple colors", "Machine washable", "Sizes: S, M, L, XL"],
         "availability": true,
@@ -182,29 +182,29 @@
         "title": "Women's Running Shoes",
         "image": "https://images.pexels.com/photos/7880182/pexels-photo-7880182.jpeg?auto=compress&cs=tinysrgb&w=300",
         "category": "Clothing",
-        "price": 59,
+        "price": 786,
         "description": "Lightweight running shoes designed for comfort and durability.",
         "Specification": ["Breathable mesh upper", "Cushioned insole", "Rubber outsole", "Available sizes: 5-11"],
         "availability": true,
-        "rating": 2
+        "rating": 4
     },
     {
         "id": 18,
         "title": "Classic Lego Building Set",
         "image": "https://images.pexels.com/photos/3993855/pexels-photo-3993855.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Toys",
-        "price": 39,
+        "price": 79,
         "description": "Classic Lego set for creative building and endless fun.",
         "Specification": ["Over 500 pieces", "Compatible with all Lego sets", "Ages 5 and up"],
         "availability": true,
-        "rating": 1
+        "rating": 3
     },
     {
         "id": 19,
         "title": "Remote Control Car",
         "image": "https://images.pexels.com/photos/13047784/pexels-photo-13047784.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Toys",
-        "price": 45,
+        "price": 65,
         "description": "Fast remote control car with rechargeable battery and high-speed capabilities.",
         "Specification": ["Speed up to 20 mph", "Rechargeable battery included", "Suitable for ages 8 and up"],
         "availability": true,
@@ -215,7 +215,7 @@
         "title": "Tennis Racket Set",
         "image": "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Sports Equipment",
-        "price": 69,
+        "price": 164,
         "description": "Complete tennis racket set for beginners, includes two rackets and a bag.",
         "Specification": ["Lightweight aluminum rackets", "Includes carrying bag", "Suitable for ages 10 and up"],
         "availability": true,
@@ -226,7 +226,7 @@
         "title": "Yoga Mat",
         "image": "https://images.pexels.com/photos/4325462/pexels-photo-4325462.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Sports Equipment",
-        "price": 25,
+        "price": 129,
         "description": "Eco-friendly yoga mat for comfortable practice, non-slip surface.",
         "Specification": ["Thickness: 6mm", "Lightweight and portable", "Non-toxic materials", "Dimensions: 72 x 24 inches"],
         "availability": true,
@@ -237,7 +237,7 @@
         "title": "Inspirational Book Collection",
         "image": "https://images.pexels.com/photos/3847674/pexels-photo-3847674.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Books",
-        "price": 35,
+        "price": 432,
         "description": "Collection of inspirational books to motivate and inspire.",
         "Specification": ["5 bestselling books", "Paperback edition", "Perfect for gift"],
         "availability": true,
@@ -248,7 +248,7 @@
         "title": "Children's Storybook",
         "image": "https://images.pexels.com/photos/1741230/pexels-photo-1741230.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Books",
-        "price": 15,
+        "price": 264,
         "description": "Engaging storybook for children, filled with colorful illustrations.",
         "Specification": ["Ages 3-8", "Hardcover", "Perfect for bedtime stories"],
         "availability": true,
@@ -259,7 +259,7 @@
         "title": "Makeup Brush Set",
         "image": "https://images.pexels.com/photos/3552894/pexels-photo-3552894.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Beauty Products",
-        "price": 29,
+        "price": 67,
         "description": "Professional makeup brush set for flawless application.",
         "Specification": ["Includes 10 brushes", "Vegan bristles", "Travel-friendly"],
         "availability": true,
@@ -270,7 +270,7 @@
         "title": "Organic Facial Serum",
         "image": "https://images.pexels.com/photos/6621472/pexels-photo-6621472.jpeg?auto=compress&cs=tinysrgb&w=600",
         "category": "Beauty Products",
-        "price": 49,
+        "price": 326,
         "description": "Revitalizing organic facial serum with anti-aging properties.",
         "Specification": ["100% natural ingredients", "Cruelty-free", "Suitable for all skin types"],
         "availability": true,
@@ -281,7 +281,7 @@
     "title": "Classic Italian Pasta",
     "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "Recipe",
-    "price": 15,
+    "price": 56,
     "description": "Delicious classic Italian pasta with a rich tomato basil sauce.",
     "Specification": ["Serves 4", "30-minute recipe", "Vegetarian"],
     "availability": false,
