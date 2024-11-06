@@ -22,7 +22,7 @@ const Card = ({ product }) => {
 
                 <div className="card-actions">
                     <Link to={`/products/${id}`}>
-                        <button className="btn btn-primary w-full bg-purple-600 hover:bg-purple-700">
+                        <button className="btn btn-primary bg-transparent text-purple-500 rounded-full w-full ">
                             View Details
                         </button>
                     </Link>
