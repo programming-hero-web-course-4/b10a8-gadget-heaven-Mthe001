@@ -275,5 +275,17 @@
         "Specification": ["100% natural ingredients", "Cruelty-free", "Suitable for all skin types"],
         "availability": true,
         "rating": 5
-    }
+    },
+   {
+    "id": 26,
+    "title": "Classic Italian Pasta",
+    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Recipe",
+    "price": 15,
+    "description": "Delicious classic Italian pasta with a rich tomato basil sauce.",
+    "Specification": ["Serves 4", "30-minute recipe", "Vegetarian"],
+    "availability": false,
+    "rating": 4.7
+}
+  
 ]

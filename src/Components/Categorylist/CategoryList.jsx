@@ -10,7 +10,9 @@ export default function CategoryList({ onSelectCategory, selectedCategory }) {
         "Toys",
         "Sports Equipment",
         "Books",
-        "Beauty Products"
+        "Beauty Products",
+        "Recipe"
+
     ];
 
     return (
