@@ -42,7 +42,9 @@ const ErrorPage = () => {
         cursor: 'pointer',
     };
 
+    document.title = "gadget | error?";
     return (
+
         <div className='w-9/12 mx-auto '>
             <Navbar></Navbar>
             <div style={containerStyle}>

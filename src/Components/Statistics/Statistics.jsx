@@ -6,7 +6,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 const Statistics = () => {
 
-    document.title = " Gadget || Statistics";
+    document.title = " Gadget | Statistics";
 
     const productData = [
 

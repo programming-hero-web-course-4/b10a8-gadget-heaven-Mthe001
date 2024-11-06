@@ -6,7 +6,7 @@ import Modal from '../Modal/Modal';
 import { useNavigate } from 'react-router-dom';
 
 const Checkout = () => {
-    document.title = "Gadget || Checkout";
+    document.title = "Gadget | Checkout";
 
     const [purchasedItems, setPurchasedItems] = useState([]);
     const [totalCost, setTotalCost] = useState(0);

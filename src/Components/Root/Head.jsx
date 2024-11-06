@@ -17,7 +17,7 @@ function Head() {
                 setBackgroundColor('#def3f6');
                 break;
             case '/statistics':
-                setBackgroundColor('#4f42b5');
+                setBackgroundColor('black');
                 break;
             case '/login':
                 setBackgroundColor('white');

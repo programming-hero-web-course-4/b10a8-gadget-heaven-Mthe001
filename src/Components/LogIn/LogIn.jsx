@@ -9,7 +9,7 @@ const Loggin = () => {
     const handleBack = () => {
         navigate(-1);
     }
-    document.title = "gadget ||login";
+    document.title = "gadget | login";
     return (
 
         <div className="flex justify-center items-center min-h-screen bg-gray-100">

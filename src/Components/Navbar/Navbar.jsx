@@ -9,7 +9,7 @@ import './navbar.css';
 
 const Navbar = ({ currentPath }) => {
 
-    const { pathname } = useLocation();
+
     const { cartCount, wishlistItems, addToWishlist, removeFromWishlist } = useCart();
     const [menuOpen, setMenuOpen] = useState(false);
     const navigate = useNavigate();

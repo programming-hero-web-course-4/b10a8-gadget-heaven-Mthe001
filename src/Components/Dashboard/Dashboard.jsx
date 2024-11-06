@@ -9,7 +9,7 @@ import Wishlist from '../Wishlist/Wishlist';
 
 const Dashboard = () => {
 
-    document.title = "Gadget || Dashboard";
+    document.title = "Gadget | Dashboard";
 
     const navigate = useNavigate();
     const { cartCount, cartItems, clearCart, wishlistItems, addToCart, removeFromCart, removeFromWishlist } = useCart();
