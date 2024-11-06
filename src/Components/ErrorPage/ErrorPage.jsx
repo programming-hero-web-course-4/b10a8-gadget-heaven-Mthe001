@@ -43,7 +43,7 @@ const ErrorPage = () => {
     };
 
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-9/12 mx-auto '>
             <Navbar></Navbar>
             <div style={containerStyle}>
                 <div style={contentStyle}>
