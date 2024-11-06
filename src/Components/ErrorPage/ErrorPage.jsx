@@ -1,11 +1,13 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const ErrorPage = () => {
     const containerStyle = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh',
+        height: '50vh',
         margin: 0,
         fontFamily: 'Arial, sans-serif',
         backgroundColor: '#f8f9fa',
@@ -41,16 +43,23 @@ const ErrorPage = () => {
     };
 
     return (
-        <div style={containerStyle}>
-            <div style={contentStyle}>
-                <h1 style={titleStyle}>404</h1>
-                <p style={messageStyle}>Oops! The page you're looking for doesn't exist.</p>
-                <p style={messageStyle}>It might have been removed or is temporarily unavailable.</p>
-                <button style={buttonStyle} onClick={() => window.location.href = '/'}>
-                    Go Back Home
-                </button>
+        <div className='w-11/12 mx-auto'>
+            <Navbar></Navbar>
+            <div style={containerStyle}>
+                <div style={contentStyle}>
+                    <h1 style={titleStyle}>404</h1>
+                    <p style={messageStyle}>Oops! The page you're looking for doesn't exist.</p>
+                    <p style={messageStyle}>It might have been removed or is temporarily unavailable.</p>
+                    <button style={buttonStyle} onClick={() => window.location.href = '/'}>
+                        Go Back Home
+                    </button>
+                </div>
+            </div>
+            <div className='relative bottom-60'>
+                <Footer></Footer>
             </div>
         </div>
+
     );
 };
 

@@ -30,7 +30,7 @@ const Dashboard = () => {
 
     return (
         <div>
-            <div className='bg-violet-500 w-[70%] h-[450px] rounded-lg mx-auto text-center'>
+            <div className='bg-violet-500 w-[70%] mt-5 pt-5 h-[450px] rounded-lg mx-auto text-center'>
                 <div className='text-center text-slate-50 p-10'>
                     <p className='font-bold md:text-3xl lg:text-4xl text-2xl'>Dashboard</p>
                     <p className='w-[70%] mx-auto py-5'>

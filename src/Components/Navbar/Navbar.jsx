@@ -1,5 +1,5 @@
 
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
 import { GrLogin } from "react-icons/gr";
@@ -8,6 +8,8 @@ import { useState } from 'react';
 import './navbar.css';
 
 const Navbar = ({ currentPath }) => {
+
+    const { pathname } = useLocation();
     const { cartCount, wishlistItems, addToWishlist, removeFromWishlist } = useCart();
     const [menuOpen, setMenuOpen] = useState(false);
     const navigate = useNavigate();
@@ -28,7 +30,9 @@ const Navbar = ({ currentPath }) => {
     const navbarBackgroundColor = currentPath === '/' ? 'bg-blue-200' : 'bg-base-100';
 
     return (
-        <nav className={`${navbarBackgroundColor} shadow-md py-4 px-6 w-full flex justify-between items-center relative`}>
+        <nav className={`${navbarBackgroundColor} shadow-md  py-4 px-6 w-full flex justify-between items-center relative `}>
+
+
 
             <div className="navbar-start">
                 <NavLink className="text-2xl font-bold text-primary" to="/">Gadget</NavLink>
