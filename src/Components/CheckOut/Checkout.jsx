@@ -1,15 +1,17 @@
 
+
 import React, { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import Modal from '../Modal/Modal';
+import { useNavigate } from 'react-router-dom';
 
 const Checkout = () => {
-
-    document.title = "Gadget || Checkout"
+    document.title = "Gadget || Checkout";
 
     const [purchasedItems, setPurchasedItems] = useState([]);
     const [totalCost, setTotalCost] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const navigate = useNavigate(); // Initialize useNavigate
 
     useEffect(() => {
         const storedItems = JSON.parse(localStorage.getItem('purchasedItems')) || [];
@@ -27,6 +29,7 @@ const Checkout = () => {
 
     const closeModal = () => {
         setIsModalOpen(false);
+        navigate('/'); // Redirect to home page
     };
 
     return (
@@ -59,7 +62,7 @@ const Checkout = () => {
                         </button>
                     </>
                 ) : (
-                    <p className="text-gray-500 text-center">No items to purchased.</p>
+                    <p className="text-gray-500 text-center">No items to purchase.</p>
                 )}
             </div>
             <ToastContainer />
@@ -69,3 +72,4 @@ const Checkout = () => {
 };
 
 export default Checkout;
+
