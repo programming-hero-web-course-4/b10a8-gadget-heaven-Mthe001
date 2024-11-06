@@ -69,6 +69,8 @@ const ProductDetail = () => {
 
     if (loading) return <div>Loading...</div>;
 
+    document.title = "gadget || details";
+
     return (
         <div>
             <ToastContainer />
