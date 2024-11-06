@@ -10,7 +10,6 @@ Welcome to **Gadget Haven**, your one-stop destination for all electronic gadget
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contact Information](#contact-information)
 
 ## Project Overview
