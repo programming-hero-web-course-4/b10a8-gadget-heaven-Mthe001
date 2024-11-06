@@ -66,12 +66,13 @@ const Cart = ({ cartItems, totalCost, onPurchase, onRemoveFromCart }) => {
                 <div className="flex justify-between py-5">
                     <h4 className="text-xl font-semibold">Total Cost:</h4>
                     <span className="text-xl font-medium">${totalCost}</span>
+                    <div className='px-2 py-2 bg-gray-200 rounded-xl w-[60%] '>
+                        <p>Confirm Order? This page will redirect to the Checkout page to purchase</p>
+                    </div>
                 </div>
             )}
 
-            <div className='px-2 py-2 bg-gray-200 rounded-xl w-[60%] '>
-                <p>Confirm Order? This page will redirect to the Checkout page to purchase</p>
-            </div>
+
             {cartItems.length > 0 && (
                 <div className="flex justify-end py-5">
                     <button onClick={onPurchase} className="px-10 text-xl btn btn-success">Order</button>
